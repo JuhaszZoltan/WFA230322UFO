@@ -10,10 +10,14 @@ namespace WFA230322UFO
             InitializeComponent();
             this.Load += OnFrmMainLoad;
             tsmiVevok.Click += OnTsmiVevokClick;
+            tsmiKereso.Click += OnTsmiKeresoClick;
         }
 
+        private void OnTsmiKeresoClick(object? sender, EventArgs e)
+            => new FrmKereso(this).ShowDialog();
+
         private void OnTsmiVevokClick(object? sender, EventArgs e)
-            => _ = new FrmVevok(this).ShowDialog();
+            => new FrmVevok(this).ShowDialog();
 
         private void OnFrmMainLoad(object? sender, EventArgs e)
         {
