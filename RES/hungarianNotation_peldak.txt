@@ -1,0 +1,14 @@
+frm -> form
+mnu -> menu
+btn -> button
+cmd -> command / command button
+chk -> check box / check button
+lbl -> text label
+txt -> text edit/input
+pic -> picture
+lst -> listbox
+cbo -> combo box
+tmr -> timer
+pb  -> picture box
+uc  -> user control
+opt -> radio button

@@ -4,12 +4,16 @@ namespace WFA230322UFO
 
     public partial class FrmMain : Form
     {
-        public string? ConnectionString { private get; set; }
+        public string? ConnectionString { get; set; }
         public FrmMain()
         {
             InitializeComponent();
             this.Load += OnFrmMainLoad;
+            tsmiVevok.Click += OnTsmiVevokClick;
         }
+
+        private void OnTsmiVevokClick(object? sender, EventArgs e)
+            => _ = new FrmVevok(this).ShowDialog();
 
         private void OnFrmMainLoad(object? sender, EventArgs e)
         {

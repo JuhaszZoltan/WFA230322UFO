@@ -97,6 +97,7 @@
             dgvMain.Name = "dgvMain";
             dgvMain.RowHeadersVisible = false;
             dgvMain.RowTemplate.Height = 25;
+            dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvMain.Size = new Size(817, 437);
             dgvMain.TabIndex = 1;
             // 
