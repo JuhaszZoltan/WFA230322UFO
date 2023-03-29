@@ -51,7 +51,6 @@
             txtUid.Name = "txtUid";
             txtUid.Size = new Size(182, 29);
             txtUid.TabIndex = 0;
-            txtUid.Text = "diak171";
             // 
             // label2
             // 
@@ -70,7 +69,6 @@
             txtPwd.PasswordChar = '*';
             txtPwd.Size = new Size(182, 29);
             txtPwd.TabIndex = 1;
-            txtPwd.Text = "ZDGE0W";
             // 
             // btnBejelentkezes
             // 

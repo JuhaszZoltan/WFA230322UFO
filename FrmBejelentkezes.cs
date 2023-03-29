@@ -7,6 +7,9 @@
         {
             this.FrmMain = frmMain;
             InitializeComponent();
+            txtUid.Text = "diak171";
+            txtPwd.Text = "ZDGE0W";
+
             btnBejelentkezes.Click += OnBtnBejelentkezesClick;
         }
 
